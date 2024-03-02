@@ -1,0 +1,61 @@
+.dialog-main-container {
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 30px;
+
+  .cross-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.5rem;
+    margin-right: -15px;
+
+    svg {
+      filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+      cursor: pointer;
+    }
+  }
+
+
+  .dialog-content-box {
+    display: flex;
+    flex-direction: column;
+
+    .dialog-box-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+
+
+      button {
+        margin-left: 20px;
+        height: 30px;
+        width: 100px;
+        background-color: #00aaa1;
+        border-radius: 8px 8px 60px 8px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+          rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+          rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+        will-change: box-shadow, transform;
+        transition: box-shadow 0.15s, transform 0.15s;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      }
+    }
+  }
+}
+
+
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthXs.MuiDialog-paperFullWidth{
+  width: unset;
+}
